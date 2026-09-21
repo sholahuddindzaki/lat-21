@@ -2,9 +2,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 import Navbar from './components/navbar'
-import DataPosts from './pages/dataPost'
-import AddPost from './pages/AddPost'
-import Edit from './pages/EditPost'
+import DataSiswa from './pages/dataSiswa'
+import AddSiswa from './pages/AddSiswa'
+import Edit from './pages/EditSiswa'
 function App() {
 
 
@@ -13,9 +13,9 @@ function App() {
       <BrowserRouter>
          <Navbar/>
          <Routes>
-            <Route path='/' element={<DataPosts/>} />
-            <Route path='/add-post' element={<AddPost/>} />
-            <Route path='/edit-post/:id' element={<Edit/>} />
+            <Route path='/' element={<DataSiswa/>} />
+            <Route path='/add-siswa' element={<AddSiswa/>} />
+            <Route path='/edit-siswa/:id' element={<Edit/>} />
          </Routes>
       </BrowserRouter>
      

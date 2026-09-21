@@ -1,5 +1,5 @@
 const express = require('express');
-const {getAll,create,update,getById,remove} = require('../controllers/postController')
+const {getAll,create,update,getById,remove} = require('../controllers/siswaController')
 const router = express.Router();
 
 router.get('/',getAll);
